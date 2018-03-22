@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Pacifico', cursive;
+font-family: 'Arvo', serif;
 }
 
 body {
@@ -10,6 +11,19 @@ body {
 }
 #main-section {
 	background-color: gray;
+}
+
+section#main-section > a {
+	color: white;
+	text-decoration; none;
+	padding: 15px;
+	display: block;
+
+}
+a[href="https://github.com/avecillamartson13"] {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .about {
